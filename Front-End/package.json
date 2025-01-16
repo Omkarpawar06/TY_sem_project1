@@ -1,5 +1,24 @@
 {
+  
+}
+
+{
+  "name": "Front-end",
+  "version": "1.0.0",
+  "private": true,
   "dependencies": {
     "react-router-dom": "^6.26.1"
+  },
+  "devDependencies": {
+    "vite": "^4.0.0"
+  },
+  "scripts": {
+    "start": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "engines": {
+    "node": ">=14.0.0"
   }
 }
+
